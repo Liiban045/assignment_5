@@ -1,0 +1,82 @@
+header{
+    background-color: bisque;
+    
+}
+style{
+    background-color: #2ecc71;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #064687;
+}
+
+
+#gradient-header {
+    background: linear-gradient(to right, #27ae60, #2ecc71);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+
+body{
+    background-image: url('Image/photo-1542838132-92c53300491e.avif');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+nav {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a img {
+    width: 110px;
+    height: auto;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+nav a img:hover { transform: scale(1.1); }
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.my_button {
+    background:    #073763;
+background:    linear-gradient(#073763, #0000ff);
+border-radius: 11px;
+box-shadow:    0 1px #444444;
+padding:       20px 45px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
